@@ -1,6 +1,5 @@
 import Search from './Search';
 import BookDetails from './BookDetails';
-import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 function App() {
   return (

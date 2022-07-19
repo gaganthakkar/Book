@@ -5,27 +5,23 @@ export default function useColumns() {
     () => [
       {
         Header: "Author",
-        accessor: "author_name[0]"
+        accessor: "author_name[0]",
       },
       {
         Header: "title",
-        accessor: "title"
+        accessor: "title",
       },
       {
         Header: "publish year",
-        accessor: "publish_year[0]"
+        accessor: "publish_year[0]",
       },
       {
         Header: "book cover",
-        accessor: "subtitle"
-      }
+        accessor: "subtitle",
+      },
     ],
     []
   );
 
   return columns;
 }
-
-
-
-// READ THE CODE AGAIN BEFORE BEGIN AFTER JOB

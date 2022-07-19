@@ -23,29 +23,7 @@ body, html, #root, #root> div{
     margin: 8px;
   }
   
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+  .App {
+    text-align: center;
   }
   
-  .book-details{
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    box-shadow: 0 2px 2px lightgray;
-    max-width: 80%;
-    margin-top: 8px;
-    margin: auto;
-    padding: 8px;
-  }
-  
-  .book-info {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-  }
-
-  .text{
-    display: flex;
-    flex-direction: column;
-  }
